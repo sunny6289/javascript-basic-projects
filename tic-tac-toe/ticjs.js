@@ -31,7 +31,7 @@ function checkScore(){
         if(arr[1]!=='.'){
             info.innerHTML = `${arr[1]} Wins`;
             board.innerHTML = "Game Over";
-            myAudio.play();
+          
             board.classList.add('board-style');
             board.removeEventListener;
             return;
@@ -41,7 +41,7 @@ function checkScore(){
         if(arr[1]!=='.'){
             info.innerHTML = `${arr[1]} Wins`;
             board.innerHTML = "Game Over";
-            myAudio.play();
+         
             board.classList.add('board-style');
             board.removeEventListener;
             return;
@@ -51,7 +51,7 @@ function checkScore(){
         if(arr[1]!=='.'){
             info.innerHTML = `${arr[1]} Wins`;
             board.innerHTML = "Game Over";
-            myAudio.play();
+          
             board.classList.add('board-style');
             board.removeEventListener;
             return;
@@ -61,7 +61,7 @@ function checkScore(){
         if(arr[2]!=='.'){
             info.innerHTML = `${arr[2]} Wins`;
             board.innerHTML = "Game Over";
-            myAudio.play();
+          
             board.classList.add('board-style');
             board.removeEventListener;
             return;
@@ -71,7 +71,7 @@ function checkScore(){
         if(arr[3]!=='.'){
             info.innerHTML = `${arr[3]} Wins`;
             board.innerHTML = "Game Over";
-            myAudio.play();
+           
             board.classList.add('board-style');
             board.removeEventListener;
             return;
@@ -81,7 +81,7 @@ function checkScore(){
         if(arr[4]!=='.'){
             info.innerHTML = `${arr[4]} Wins`;
             board.innerHTML = "Game Over";
-            myAudio.play();
+            
             board.classList.add('board-style');
             board.removeEventListener;
             return;
@@ -91,7 +91,7 @@ function checkScore(){
         if(arr[7]!=='.'){
             info.innerHTML = `${arr[7]} Wins`;
             board.innerHTML = "Game Over";
-            myAudio.play();
+            
             board.classList.add('board-style');
             board.removeEventListener;
             return;
@@ -101,7 +101,7 @@ function checkScore(){
         if(arr[3]!=='.'){
             info.innerHTML = `${arr[3]} Wins`;
             board.innerHTML = "Game Over";
-            myAudio.play();
+            
             board.classList.add('board-style');
             board.removeEventListener;
             return;
@@ -109,7 +109,7 @@ function checkScore(){
     }
     if(clicked===10){
         board.innerHTML = "Match Draw!";
-        myAudio.play();
+      
         board.classList.add('board-style');
     }
 }
