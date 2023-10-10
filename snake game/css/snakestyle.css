@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit',sans-serif;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+#container{
+   min-height: 100vh;
+   background-image: url('../img/bg.jpg');
+   /* background-position: bottom; */
+   background-repeat: no-repeat;
+   background-size: 100vw 100vh;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+   gap: 4vw;
+}
+.board{
+    height: 92vmin;
+    width: 90vmin;
+    background: linear-gradient(rgb(212, 248, 212),rgb(247, 247, 162));
+    border: 2px solid rgb(2, 74, 2);
+    display: grid;
+    grid-template-columns: repeat(18,1fr);
+    grid-template-rows: repeat(18,1fr);
+}
+#score{
+    position: absolute;
+    top: 40px;
+    right: 150px;
+    font-size: 35px;
+    font-weight: 600;
+    padding: 5px 10px;
+    border: 2px solid #000;
+    background-color: #fff;
+}
+@media (max-width:570px){
+    #score{
+        position: relative;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+    }
+}
+.head{
+    background:linear-gradient(red,yellow);
+    border-radius: 9px;
+    border: .25vmin solid #000;
+}
+.snake{
+    background: linear-gradient(red,rgb(134, 25, 134));
+    border-radius: 9px;
+    border: .25vmin solid #fff;
+}
+.food{
+    background: linear-gradient(red,purple);
+    border-radius: 9px;
+    border:.25vmin solid #000;
+}
