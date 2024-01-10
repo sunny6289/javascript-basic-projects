@@ -20,6 +20,13 @@ html , body{
     flex-direction: column;
     gap: 20px;
 }
+.projects{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
 h1{
     font-size: 5vw;
     font-weight: 600;
