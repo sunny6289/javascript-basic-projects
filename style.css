@@ -15,15 +15,12 @@ html , body{
     width: 100%;
     background:linear-gradient(to bottom right, pink,blue);
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content:center;
     flex-direction: column;
     gap: 20px;
 }
 .projects{
      display: flex;
-    justify-content: center;
-    align-items: center;
     gap: 20px;
 }
 h1{
